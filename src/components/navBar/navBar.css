@@ -1,0 +1,28 @@
+#navBar{
+    position:sticky;
+    top:0;
+    width: 99.8%;
+    display:flex;
+    justify-content:space-between;
+    background-color:#f7edd4;
+    height:100px;
+    border: 2px solid #5e2c38;
+}
+.navBtn{
+    align-self: center;
+    width: 10%;
+    height: auto;
+    color:#f7edd4;
+    background-color:#452129;
+    border-radius: 30px;
+   padding: 1%;
+    align-items: center;;
+
+}
+
+.signInInput{
+    margin:1%;
+    border-radius: 30px;
+    color: #093426;
+    width: 80%;
+  }

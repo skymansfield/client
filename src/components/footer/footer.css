@@ -1,0 +1,74 @@
+#footerArea {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    height:auto;
+    border: 2px solid #5e2c38;
+    background-color:#F7edd4;
+  }
+  
+  #addressArea {
+    margin: 1%;
+    font-size: 1.5vw;
+    font-weight: bold;
+    letter-spacing: 1px;
+    align-self:center;
+  }
+  
+  #emailLink {
+    text-decoration: none;
+    
+  }
+  
+  #footerMiddle {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: center;
+    column-gap: 1%;
+  }
+  
+  #iconArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 2%;
+    margin: 0% 0% 5% 0%;
+  }
+
+  #github{
+    border-radius: 6px;
+  }
+  
+  .icons {
+    height: 50px;
+    width: 50px;
+  }
+  
+  #footerLogo {
+    height: 15vh;
+  
+  }
+  
+  #tagLine {
+    font-family: 'Kristen ITC';
+    font-size: 3vw;
+    margin-bottom: 1%;
+  
+  }
+
+.regText {
+    color:#5e2c38;
+  }
+
+  #copyrightArea {
+    text-align: end;
+    align-self: center;
+    margin-right: 2%;
+  }
+
+  #copyright{
+    font-size: .75vh;
+  }

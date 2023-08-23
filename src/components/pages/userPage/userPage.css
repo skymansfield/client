@@ -1,0 +1,90 @@
+#backgroundArea {
+  background-color: #202020;
+
+}
+
+#wholeUserPage {
+  max-width: 80%;
+  margin: auto;
+  background-color: #202020;
+}
+
+
+#userPage {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+#userPageHeader {
+  background-image: url(../../../resources/collageImages/capstoneCollage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  /* background-color: #f1f1f1; */
+  color: black;
+  text-align: center;
+  font-size: 90px;
+  font-weight: bold;
+  /* position: sticky; */
+  top: 0px;
+  width: 100%;
+  transition: 0.2s;
+}
+
+#userPageHeader1 {
+  background-image: url(../../../resources/collageImages/capstoneCollage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  /* background-color: #f1f1f1; */
+  height: 200px;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  /* position: sticky; */
+  top: 0px;
+  width: 100%;
+  transition: 0.2s;
+}
+
+.pageHeader {
+  margin-top: 1%;
+  font-size: 4vh;
+  text-align: center;
+  color: #448d76;
+  text-shadow: 2px 2px #452129 !important;
+  font-family: 'Kristen ITC';
+  font-weight: bold;
+
+}
+
+#left {
+
+  color: #448d76;
+  height: auto;
+  width: 20%
+}
+
+#userNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #243737;
+  position: sticky;
+}
+
+#middle {
+  height: auto;
+  width: 50%;
+
+}
+
+#right {
+  height: auto;
+  width: 25%;
+
+}

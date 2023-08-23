@@ -1,0 +1,86 @@
+#searchBtnDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#projectsMap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  column-gap: 2%;
+  row-gap: 2%;
+}
+
+#projectsCard {
+  border: 5px solid #452129;
+  margin: 2%;
+  border-radius: 30px;
+  color: #243737;
+  font-weight: bold;
+  background-color: darkgrey;
+}
+
+.projectBtnDiv {
+  align-self: end;
+  display: flex;
+  margin: 1%;
+}
+
+#oneCard {
+
+  border: 5px solid #452129;
+  margin: 2%;
+  border-radius: 30px;
+  color: #243737;
+  background-color: darkgrey;
+
+}
+
+#projectsHeaderDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.projectTitle {
+  margin: 1%;
+  font-family: 'Palatino Linotype';
+  font-size: 3vh;
+}
+
+#projectsInfoDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1%;
+  column-gap: 2%;
+}
+
+.projectsInfo {
+  margin: 1%;
+  width: 100%;
+
+}
+
+.progressDiv {
+  width: 100px;
+  border-radius: 30px;
+
+  background-color: #452129;
+}
+
+.progressBar {
+  border-radius: 30px;
+  background-color: #448d76;
+  font-size: 12px;
+  color: #f7edd4;
+}
+
+.selectInput {
+  align-self: center;
+  border-radius: 30px;
+  color: #093426;
+  background-color: darkgrey;
+}

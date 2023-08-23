@@ -1,13 +1,190 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+body{
+  margin:0;
+}
+#signIn {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #448d76;
+  border-radius: 30px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#showError {
+  color: #fcba12;
+  background-color: #243737;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.signInForm {
+  width: 50%;
+}
+
+#contactUs {
+  background-color: #093426;
+  color: #448d76;
+  z-index: 7;
+  position: fixed;
+  top: 5%;
+}
+
+.smlogo {
+  margin: auto;
+  justify-self: center;
+  width: 200px;
+}
+
+#addForm {
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  color: #448d76;
+  align-content: center;
+  border: 5px dotted #452129;
+  border-radius: 20%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #452129;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #448d76;
+}
+
+#commentInfo {
+  background-color: darkgray;
+  color: #243737;
+  align-self: center;
+  width: 75%;
+  margin: 2%;
+  border-radius: 30px;
+  padding: 2%;
+  color: #093426;
+  text-align: center;
+  border: 2px solid #452129;
+
+}
+
+.comment {
+  font-size: 2vh;
+  color: #452129;
+}
+
+.commentDetails {
+  font-size: 1.5vh;
+}
+
+.formHeader {
+  margin-top: 4%;
+  font-size: 4vh;
+  text-align: center;
+  color: #448d76;
+  text-shadow: 2px 2px #452129 !important;
+  font-family: 'Kristen ITC';
+
+
+}
+
+.subHeader {
+  font-size: 3vh;
+  text-align: center;
+  color: #452129;
+  font-family: 'Tempus Sans ITC';
+
+}
+
+.formLabel {
+  text-align: center;
+  font-size: 3vh;
+  font-family: 'Palatino Linotype';
+  color:#448d76;
+  padding:2%;
+
+}
+
+.formInput {
+  align-self: center;
+  width: 75%;
+  margin: 2%;
+  border-radius: 30px;
+  padding: 2%;
+  color: #093426;
+  background-color:#f7edd4;
+}
+
+.formButton {
+  align-self: center;
+  width: auto;
+  color: #452129;
+  background-color: #448d76;
+  border-radius: 30px;
+  margin: 1%;
+  padding: 2%;
+}
+
+.formButton:hover {
+  background-color: #452129;
+  color: #448d76;
+}
+
+.taskButtons {
+  width: auto;
+}
+
+
+.trashCan {
+  height: 35px;
+}
+
+.projectBtn {
+  column-gap: 5%;
+  width: auto;
+  color: whitesmoke;
+  font-weight: bold;
+  background-color: #452129;
+  border-radius: 30px;
+  padding: auto;
+}
+
+.projectBtn:hover {
+  background-color: #448d76;
+  color: #452129
+}
+
+
+.iconButtons {
+  font-size: 25px;
+}
+
+.fileUpload {
+  background-color: #448d76;
+  border-radius: 30px;
+  width: 75%;
+  align-self: center;
+  padding: 2%;
+}
+
+.dateConversion {
+  color: #448d76;
+}
+
+.closeModal{
+  text-align: right;
+  cursor: pointer;
 }

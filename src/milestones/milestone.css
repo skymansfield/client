@@ -1,0 +1,119 @@
+  #milestonesAddCard {
+    border: 5px solid #452129;
+    margin: 2%;
+    border-radius: 30px;
+    color: #093426;
+    background-color: darkgray;
+  }
+
+  .milestoneInputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 2%;
+  }
+
+  #milestonesCard {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #452129;
+    margin: 2%;
+    border-radius: 30px;
+    color: #093426;
+    background-color: darkgray;
+  }
+
+  #milestoneTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+
+  .milestone1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .milestoneLabel {
+    font-size: 1.5vh;
+    font-family: 'Palatino Linotype';
+  }
+
+  .milestoneInput {
+    justify-content: center;
+    margin: 1%;
+    border-radius: 30px;
+    color: #093426;
+    background-color: darkgray;
+
+  }
+
+  .notes {
+    text-indent: 2%;
+    font-weight: bold;
+    word-wrap: break-word;
+    text-align: center;
+  }
+
+  #notesDiv {
+    text-align: center;
+    border-radius: 30px;
+    color: #093426;
+    background-color: #F7EDD4;
+    margin: 1%;
+   
+  }
+
+  #notesArea {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    max-height: 200px;
+    overflow: auto;
+
+  }
+  #addNoteDiv{
+    position: fixed;
+    top: 300px;
+    background-color: #452129;
+    color: #F7EDD4;
+    width: 500px;
+    padding: 1%;
+    border-radius: 30px;
+
+  }
+  .noteInput{
+    width:100%;
+    border-radius: 30px;
+    padding: 1%;
+    background-color: #F7EDD4;
+  }
+
+
+  .milestoneButton {
+    margin-top: 0px;
+  }
+
+  #milestoneCards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #milestonesInfoDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1%;
+  }
+
+  #completeMilestoneDiv {
+    position: fixed;
+    top: 300px;
+    background-color: #452129;
+    color: #F7EDD4;
+    width: auto;
+    padding: 1%;
+    border-radius: 30px;
+  }
